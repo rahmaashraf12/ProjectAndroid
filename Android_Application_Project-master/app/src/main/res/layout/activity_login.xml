@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/designlogo"
+    android:orientation="vertical"
+    tools:context=".Interface.loginActivity">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="LOG IN"
+        android:textSize="60dp"
+        android:fontFamily="@font/f"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/background_category"
+        android:drawablePadding="60dp"
+        android:hint="Enter email"
+        android:layout_marginLeft="20dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_category"
+        android:drawablePadding="8dp"
+        android:hint="Enter Password"
+        android:layout_marginLeft="20dp"
+
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="95dp"
+        android:backgroundTintMode="src_in"
+        android:text="Login"
+
+        android:textSize="18sp"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:id="@+id/signupRedirectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:padding="8dp"
+        android:text="Not Have Account? Signup"
+        android:layout_marginRight="40dp"
+
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
